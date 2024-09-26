@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Новости</title>
+</head>
+
+<body>
+  <div class="new_display">
+    <h1>Добавить новость</h1>
+    <forma class="form__block">
+        <input type="text" id="title" name="title" placeholder="Название" />
+        <p id="titleError" class="error"></p>
+        <textarea id="content" name="content" placeholder="Текст новости"></textarea>
+        <p id="contentError" class="error"></p>
+        <button id="addButton">Добавить новость</button>
+    </forma>
+
+
+
+    <h2>Все новости</h2>
+    <div id="newsContainer"></div>
+</div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
